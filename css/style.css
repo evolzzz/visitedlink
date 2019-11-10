@@ -1,0 +1,19 @@
+.visited_data {
+    font-family: Arial, Helvetica, sans-serif !important;
+    font-size: 11px !important;
+    letter-spacing: 0px !important;
+    line-height: 14px !important;
+    text-transform: none !important;
+    margin-top: -95px !important;
+    padding: 8px !important;
+    position: fixed !important;
+    border-radius: 8px 8px 8px 8px !important;
+    width: 195px !important;
+    background: rgba(50, 101, 152, 0.5) !important;
+    border-color: rgba(50, 101, 152, 0.3)!important;
+    z-index: 999 !important;
+    color: white !important;
+    -webkit-box-shadow: 0px 0px 10px 4px rgba(119, 119, 119, 0.15);
+    -moz-box-shadow: 0px 0px 10px 4px rgba(119, 119, 119, 0.15);
+    box-shadow: 0px 0px 10px 4px rgba(119, 119, 119, 0.15);
+}

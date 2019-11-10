@@ -1,0 +1,283 @@
+body {
+    background-image: url("../img/wall.png");
+    background-repeat: repeat-x repeat-y;
+}
+
+#logo_img {
+    width: 250px;
+    margin-top: -10px;
+}
+
+#options_container {
+    width: 235px;
+    margin: 5px auto 10px auto;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 9px;
+    border-color: #efefef;
+    background-color: #FFFFFF;
+}
+
+#text_colors {
+    margin-top: 10px;
+    text-align: center;
+    color: #5D5D5D;
+}
+
+#colors {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.color {
+    width: 20px;
+    height: 20px;
+    display: block;
+    display: inline-block;
+    border-radius: 20px;
+    cursor: pointer;
+    cursor: hand;
+}
+
+#color_a {
+    background-color: red;
+}
+
+#color_b {
+    background-color: blue;
+}
+
+#color_c {
+    background-color: orange;
+}
+
+#color_d {
+    background-color: green;
+}
+
+#color_e {
+    background-color: black;
+}
+
+#color_f {
+    background-color: #b7bc1c;
+}
+
+.color_select {
+    width: 12px;
+    height: 12px;
+    border-radius: 12px;
+    border-width: 2px;
+    border-color: white;
+    border-style: solid;
+    cursor: pointer;
+    cursor: hand;
+    margin: 1.5px auto;
+    display: block;
+    background-color: white;
+}
+
+#clean {
+    margin-top: 13px;
+    text-align: center;
+}
+
+#text_clean {
+    text-align: center;
+    color: #5D5D5D;
+}
+
+#btn_clean {
+    margin-top: 10px;
+    margin-bottom: 8px;
+    cursor: pointer;
+    cursor: hand;
+}
+
+#amazon_content {
+    margin: 0 auto;
+    width: 235px;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 9px;
+    border-color: #efefef;
+    background-color: white;
+}
+
+#logo_amazon {
+    width: 155px;
+    display: block;
+    margin: 10px auto 10px auto;
+}
+
+#footer_line {
+    height: 1px;
+    width: 120px;
+    background-color: #dbdbdb;
+    margin: 15px auto 0px auto;
+}
+
+#footer_texto_1 {
+    text-align: center;
+    font-size: 0.8em;
+    margin-top: 5px;
+    color: #898989;
+}
+
+#footer_texto_2 {
+    text-align: center;
+    font-size: 0.8em;
+    color: #898989;
+}
+
+
+/***********************************************************************/
+
+#switch {
+    margin: 12px auto 0 auto;
+}
+
+#text_switch {
+    text-align: center;
+    color: #5D5D5D;
+}
+
+.onoffswitch {
+    position: relative;
+    width: 66px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    margin: 9px auto 0 auto;
+}
+
+.onoffswitch-checkbox {
+    display: none;
+}
+
+.onoffswitch-label {
+    display: block;
+    overflow: hidden;
+    cursor: pointer;
+    border: 2px solid #23bbea;
+    border-radius: 19px;
+}
+
+.onoffswitch-inner {
+    display: block;
+    width: 200%;
+    margin-left: -100%;
+    transition: margin 0.3s ease-in 0s;
+}
+
+.onoffswitch-inner:before,
+.onoffswitch-inner:after {
+    display: block;
+    float: left;
+    width: 50%;
+    height: 20px;
+    padding: 0;
+    line-height: 20px;
+    font-size: 14px;
+    color: white;
+    font-family: Trebuchet, Arial, sans-serif;
+    font-weight: bold;
+    box-sizing: border-box;
+}
+
+.onoffswitch-inner:before {
+    content: "ON";
+    padding-left: 10px;
+    background-color: #FFFFFF;
+    color: #23bbea;
+}
+
+.onoffswitch-inner:after {
+    content: "OFF";
+    padding-right: 10px;
+    background-color: #FFFFFF;
+    color: #23bbea;
+    text-align: right;
+}
+
+.onoffswitch-switch {
+    display: block;
+    width: 14px;
+    margin: 3px;
+    background: #FFFFFF;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 42px;
+    border: 2px solid #23bbea;
+    border-radius: 19px;
+    transition: all 0.3s ease-in 0s;
+}
+
+.onoffswitch-checkbox:checked+.onoffswitch-label .onoffswitch-inner {
+    margin-left: 0;
+}
+
+.onoffswitch-checkbox:checked+.onoffswitch-label .onoffswitch-switch {
+    right: 0px;
+    background-color: #23bbea;
+}
+
+
+/***********************************************************************/
+
+.button {
+    border-radius: 20px;
+    background-color: #23bbea;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 12px;
+    padding: 8px;
+    width: 100px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin-bottom: 15px !important;
+}
+
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.button span:after {
+    content: "reset";
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -80px;
+    transition: 0.5s;
+}
+
+.button:hover span {
+    padding-right: 33px;
+}
+
+.button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+
+/***********************************************************************/
+
+#popup_deleted_history {
+    position: absolute;
+    z-index: 99;
+    text-align: center;
+    left: 28px;
+    top: 287px;
+    padding-top: 15px;
+    width: 215px;
+    height: 50px;
+    background-color: white;
+    color: #5D5D5D;
+    display: none;
+}
